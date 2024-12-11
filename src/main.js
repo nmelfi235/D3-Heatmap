@@ -45,7 +45,6 @@ const svg = d3
   .attr("height", height + margin.top + margin.bottom + legendHeight);
 
 d3.json(dataLink).then((data) => {
-  console.log(data);
   // Parse data
   const baseTemp = +data.baseTemperature;
   const parsedData = data.monthlyVariance.map((d) => {

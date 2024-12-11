@@ -1,5 +1,37 @@
+body {
+  background: linear-gradient(180deg, black, darkblue);
+}
+
+h1 {
+  color: white;
+  text-decoration: underline;
+}
+
+#github-icon {
+  color: white;
+  margin-left: 15px;
+}
+
+#github-icon:hover {
+  font-size: 33px;
+  color: purple;
+  margin-left: 14px;
+}
+
 #tooltip {
   background-color: black;
   color: white;
   font-weight: bold;
+}
+
+#description {
+  color: white;
+}
+
+#graph {
+  background-color: white;
+  width: 1130px;
+  border: 2px solid black;
+  border-radius: 1%;
+  box-shadow: 4px;
 }
